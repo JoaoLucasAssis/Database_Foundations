@@ -47,3 +47,33 @@ O relacionamento entre as tabelas `student` e `tutor` permite armazenar os dados
     * Os valores dos campos em colunas são do mesmo tipo
 
     * Cada tabela tem uma coluna para
+
+## 2.2 - Modelos Físicos e Conceituais
+
+### Modelo Conceitual
+
+Captura as necessidades e informações de uma empresa
+
+Identifica entidades - objetos que se tornam tabelas - e relacionamentos entre entidades
+
+Não especifica atributos - objetos que se tornam colunas - e identificadores exclusivos(chaves primárias)
+
+### Modelo Lógico
+
+Inclui todas as entidades e os relacionamentos entre elas
+
+Especifica todos os atributos em indentificadores de cada entidade
+
+Determina se o atributo aceita valores nulos
+
+Determina a cardinalidade dos relacionamentos
+
+É denominado modelo entidade-relacionamento
+
+É ilustrado em um diagrama de entidade-relacionamento
+
+### Modelo Físico
+
+Descreve como os objetos devem ser implementados em um banco de dados específico - entidades viram tabelas, atributos viram colunas e relacionamentos viram chaves estrangeiras
+
+Mostra todas as estruturas da tabela, incluindo colunas e chaves
