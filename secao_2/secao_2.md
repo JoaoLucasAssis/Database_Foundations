@@ -129,3 +129,21 @@ Atributos são características que descrevem cada entidade
     * `Valor único` - podem ter apenas um valor(primeiro-nome)
 
     * `Vários valores` - podem ter mais de um valor por vez(endereço)
+
+## 2.4 - Identificadores Exclusivos
+
+É um atributo de uma entidade que é exclusivo em todas as instâncias da entidade
+
+É considerado um atributo obrigatório e não volátil
+
+* Os identificadores podem ser classificados como:
+
+    * `Simples` - apenas um atributo é suficiente para identificar cada instância(cpf)
+
+    * `Composto` - combinação de atributos necessária para identificar cada instância(nome e data de nascimento)
+
+    * `Artificial` - não ocorrem no mundo real, mas são criados para identificação em um sistema(id)
+
+Um identificador torna-se uma chave primária quando o modelo lógico é transformado em banco de dados físico
+
+Uma chave primária é uma coluna ou um conjunto de colunas que identifica de forma exclusiva cada linha de uma tabela
