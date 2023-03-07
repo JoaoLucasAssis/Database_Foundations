@@ -80,6 +80,14 @@ Mostra todas as estruturas da tabela, incluindo colunas e chaves
 
 ## 2.3 - Entidades e Atributos
 
+Uma entidade é represenatda como um retângulo
+
+O nome de uma entidade deve estar expresso no singular
+
+O atributo deve ser escrito de forma entendível por qualquer um
+
+O símbolo representando o tipo do atributo deve ser colocado ao lado de cada atributo(* - obrigatório | # - chave primária)
+
 ### Entidade
 
 Entidades são bjetos que podem ser classificados como físicos ou lógicos, de acordo com a sua existência no mundo real
@@ -121,11 +129,3 @@ Atributos são características que descrevem cada entidade
     * `Valor único` - podem ter apenas um valor(primeiro-nome)
 
     * `Vários valores` - podem ter mais de um valor por vez(endereço)
-
-Uma entidade é represenatda como um retângulo
-
-O nome de uma entidade deve estar expresso no singular
-
-O atributo deve ser escrito de forma entendível por qualquer um
-
-O símbolo representando o tipo do atributo deve ser colocado ao lado de cada atributo(* - obrigatório | # - chave primária)
