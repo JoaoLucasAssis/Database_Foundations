@@ -147,3 +147,26 @@ Atributos são características que descrevem cada entidade
 Um identificador torna-se uma chave primária quando o modelo lógico é transformado em banco de dados físico
 
 Uma chave primária é uma coluna ou um conjunto de colunas que identifica de forma exclusiva cada linha de uma tabela
+
+## 2.5 - Relacionamentos
+
+É uma associação bidirecional entre duas entidades ou entre uma entidade e ela mesma
+
+slid 2
+
+Em um modelo conceitual, os relacionamentos são mapeados para chaves estrangeiras em uma tabela de banco de dados físico
+
+### Cardinalidade
+
+Determina o valor mínimo e máximo de valores no relacionamento
+
+`1:1` - têm cardinalidade de apenas um em ambas direções
+
+`1:n` - têm cardinalidade de apenas um em uma direção e um ou mais na outra direção
+
+`n:n` - têm cardinalidade de um ou mais em ambas direções
+
+### Relacionamento Recursivo
+
+É o relacionamento entre uma tabela e ela mesma
+
