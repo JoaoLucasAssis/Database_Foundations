@@ -170,3 +170,48 @@ Determina o valor mínimo e máximo de valores no relacionamento
 
 É o relacionamento entre uma tabela e ela mesma
 
+## 2.6 - Modelagem de Entidade-Relacionamento
+
+É derivado de especificações da empresa
+
+É uma lista de todas as entidades, atributos e relacionamentos entre as entidades
+
+Fornece informações como descrições de entidades, tipos de dados e restrições
+
+### Modelagem Conceitual
+
+Descreve os elementos relevantes de uma organização(entidades)
+
+Identifica relacionamentos entre as diferentes entidades
+
+Não especifica atributos ou identificadores
+
+### Modelagem Lógica
+
+Descreve os dados detalhadamente
+
+Identifica todas as entidades, atributos
+
+Determina os identificadores e relacionamentos
+
+Define a opcionalidade e cardinalidade dos elementos
+
+É ilustrado por um `diagrama de entidade-relacionamento`
+
+Deve permanecer o mesmo, independente do tipo de sistema de banco de dados que ele venha a ser criado ou implementado
+
+#### Diagrama de entidade-relacionamento
+
+Modelo que identifica as entidades existentes e os relacionamentos entre elas
+
+Representa os requisitos de dados de uma empresa
+
+* Etapas:
+
+    * identificar entidades
+
+    * identificar atributos
+
+    * determinar relacionamentos entre entidades
+
+    * determinar opcionalidades e cardinalidades
