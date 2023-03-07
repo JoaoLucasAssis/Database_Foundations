@@ -48,7 +48,7 @@ O relacionamento entre as tabelas `student` e `tutor` permite armazenar os dados
 
     * Cada tabela tem uma coluna para
 
-## 2.2 - Modelos Físicos e Conceituais
+## 2.2 - Modelos Conceituais, Lógicos e Físicos
 
 ### Modelo Conceitual
 
@@ -77,3 +77,55 @@ Determina a cardinalidade dos relacionamentos
 Descreve como os objetos devem ser implementados em um banco de dados específico - entidades viram tabelas, atributos viram colunas e relacionamentos viram chaves estrangeiras
 
 Mostra todas as estruturas da tabela, incluindo colunas e chaves
+
+## 2.3 - Entidades e Atributos
+
+### Entidade
+
+Entidades são bjetos que podem ser classificados como físicos ou lógicos, de acordo com a sua existência no mundo real
+
+Uma entidade representa um conjunto de instâncias
+
+#### Entidade Forte
+
+Uma entidade é do tipo forte quando sua existência independe de outras entidades
+
+#### Entidade Fraca
+
+Uma entidade é do tipo fraca quando sua existência depende de outras entidades
+
+#### Entidade Associativa
+
+Uma entidade é do tipo associativa quando existe entre um relacionamento n:n
+
+Em geral, as entidades associativas são encontradas entre entidades fortes
+
+### Atributos
+
+Atributos são características que descrevem cada entidade
+
+* Os atributos podem ser classificados como:
+
+    * `Obrigatórios` - devem ter um valor e nulos não permitidos(RG)
+
+    * `Opcionais` - sem valor e nulos permitidos(email)
+
+    * `Voláteis` - apresentam valores instáveis(idade)
+
+    * `Não voláteis` - apresentam valores fixos(data de nascimento)
+
+    * `Simples` - não podem ser divididos em subpartes(RG)
+
+    * `Compostos` - podem ser divididos em subpartes(nome => primeiro-nome, nome-do-meio, ultimo-nome)
+
+    * `Valor único` - podem ter apenas um valor(primeiro-nome)
+
+    * `Vários valores` - podem ter mais de um valor por vez(endereço)
+
+Uma entidade é represenatda como um retângulo
+
+O nome de uma entidade deve estar expresso no singular
+
+O atributo deve ser escrito de forma entendível por qualquer um
+
+O símbolo representando o tipo do atributo deve ser colocado ao lado de cada atributo(* - obrigatório | # - chave primária)
