@@ -146,3 +146,41 @@ Lidam com os pré-requisitos, etapas ou processos de uma empresa
 Algumas regras procedurais não podem ser diagramadas, mas devem ser documentadas para ser programadas posteriormente
 
 A aprovação de solicitações deve ser assinada pelo gerente
+
+## 3.4 - Terminologia e Mapeamento da Modelagem de Dados
+
+* Terminologia de um ERD para o modelo físico:
+
+    * Entidade = Tabela
+
+    * Instância = Linha
+
+    * Atributo = Coluna
+
+    * UID primário = Chave Primária
+
+    * UID secundário = Chave Exclusiva(única)
+
+    * Relacionamento = Chave Estrangeira
+
+### Mapeamento de Relacionamentos
+
+Os relacionamentos são mapeados entre chaves primárias e estrangeiras para permitir que uma tabela faça referência a outra
+
+#### Muitos para Muitos
+
+Cria-se uma entidade associativa que conterá colunas de chave estrangeiras que fazem referência às tabelas de origem
+
+Essas colunas fazem parte da chave primária da tabela associativa
+
+### Mapeamento Supertipo/Subtipos
+
+#### Tabela única
+
+Usada quando a maioria dos subtipos tem atributos em comum e relacionamentos compartilhados
+
+#### Várias Tabelas
+
+Cria-se uma tabela para cada subtipo
+
+Usada quando os subtipos tem poucos atributos em comum e relacionamentos compartilhados
